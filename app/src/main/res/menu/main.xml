@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.example.canvasdemo.MainActivity" >
+
+    <item
+        android:id="@+id/action_play"
+        android:icon="@drawable/play"
+        android:orderInCategory="106"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_pause"
+        android:icon="@drawable/pause"
+        android:orderInCategory="107"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_newGame"
+        android:icon="@drawable/newgame"
+        android:orderInCategory="108"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/godlike"
+        android:orderInCategory="105"
+        android:title="Godlike" />
+    <item
+        android:id="@+id/hard"
+        android:orderInCategory="106"
+        android:title="Hard" />
+    <item
+        android:id="@+id/medium"
+        android:orderInCategory="107"
+        android:title="Medium" />
+    <item
+        android:id="@+id/easy"
+        android:orderInCategory="108"
+        android:title="Easy" />
+
+</menu>
